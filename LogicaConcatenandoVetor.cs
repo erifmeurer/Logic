@@ -25,7 +25,7 @@ namespace Logica
         {
             string[] B = { "5", "6", "7", "8", "9" };
             string[] resultado = new string[B.Length + retornaVetor().Length];
-            //var resultado = retornaVetor().Concat(B);
+            //var resultado = retornaVetor().Concat(B); //Forma mais usual
 
             for (int i = 0;i < resultado.Length;i++)
             {
